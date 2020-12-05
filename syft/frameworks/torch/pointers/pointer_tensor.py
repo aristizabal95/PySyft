@@ -395,7 +395,7 @@ class PointerTensor(pointers.ObjectPointer, abstract.AbstractTensor):
 
             if point_to_attr is not None and tensor is not None:
 
-                point_to_attrs = point_to_attr.decode("utf-8").split(".")
+                point_to_attrs = point_to_attr.split(".")
                 for attr in point_to_attrs:
                     if len(attr) > 0:
                         tensor = getattr(tensor, attr)
