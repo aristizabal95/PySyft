@@ -1,3 +1,6 @@
+# THIS IS A FORK WITH THE INTENTION OF KEEPING AND FIXING AN OLDER VERSION OF PYSYFT
+I previously used PySyft to write an article implementing a Bi-Directionally Private PATE Framework. Since then, PySyft has changed alot, and newer versions completely break my project. Additionally, the version I used appear to have a bug, which required me to edit the library and remove offending commands.
+
 # Introduction
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/OpenMined/PySyft/master) [![Build Status](https://travis-ci.org/OpenMined/PySyft.svg?branch=torch_1)](https://travis-ci.org/OpenMined/PySyft) [![Chat on Slack](https://img.shields.io/badge/chat-on%20slack-7A5979.svg)](https://openmined.slack.com/messages/team_pysyft) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmatthew-mcateer%2FPySyft.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmatthew-mcateer%2FPySyft?ref=badge_small)
